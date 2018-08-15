@@ -65,7 +65,8 @@ infer: $ => token(seq('infer',/\s+/)),
     disjoint: $ => seq('disjoint'/*,$._space*/),
     no: $ => seq('no',$._space),
     class_list: $ => seq($.class_name,repeat1(seq($.and,$.class_name))),
-    qname_list: $ => seq($._qname,repeat1(seq($.and,$._qname))),
+    qname_list: $ => seq($.qname,repeat1(seq($.and,$.qname))),
+    qname: $ => $._qname,
     particular: $ => seq(
       $.some,$.class_name,choice($.are,$.arenot),$.class_expression
     ),

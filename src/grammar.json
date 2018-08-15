@@ -824,7 +824,7 @@
       "members": [
         {
           "type": "SYMBOL",
-          "name": "_qname"
+          "name": "qname"
         },
         {
           "type": "REPEAT1",
@@ -837,12 +837,16 @@
               },
               {
                 "type": "SYMBOL",
-                "name": "_qname"
+                "name": "qname"
               }
             ]
           }
         }
       ]
+    },
+    "qname": {
+      "type": "SYMBOL",
+      "name": "_qname"
     },
     "particular": {
       "type": "SEQ",
