@@ -1,6 +1,6 @@
 {
   "name": "tree-sitter-scone",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,4 @@
     "tree-sitter-cli": "^0.12.5"
   },
   "repository": "https://github.com/spechub/tree-sitter-scone"
-
 }
